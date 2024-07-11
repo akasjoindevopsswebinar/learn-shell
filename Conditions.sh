@@ -60,7 +60,7 @@ fi
 
 ======================
 
-read x
+read -p "Enter a number: " x
 
 echo ""The user passed this value: $x"
 
@@ -72,8 +72,8 @@ fi
 
 =====================================
 
-read a
-read b
+read -p "Enter first string: " a
+read  -p "Enter first string: " b
 
 if [ $a == $b ]; then
  echo "Matched"
