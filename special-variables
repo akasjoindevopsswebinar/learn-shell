@@ -1,0 +1,10 @@
+""
+''
+``
+
+a=World
+
+echo "$a"
+echo '$a'
+
+echo `pwd`
